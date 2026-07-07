@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Maker/hobbyist palette */
+  --color-primary: #ff6b35;
+  --color-primary-dark: #e5551f;
+  --color-secondary: #00a896;
+  --color-dark: #1a1a2e;
+  --color-light: #faf7f0;
+  --color-warning: #f2c94c;
+  --color-ink: #2d2d2d;
+
+  --font-heading: "Baloo 2", "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  --radius-card: 1rem;
+}
+
+body {
+  margin: 0;
+  background: var(--color-light);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
