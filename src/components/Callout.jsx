@@ -1,7 +1,7 @@
 const styles = {
-  tip: { border: "border-secondary", bg: "bg-secondary/10", label: "Tip" },
+  tip: { border: "border-primary", bg: "bg-primary/10", label: "Tip" },
   warning: { border: "border-warning", bg: "bg-warning/15", label: "Watch out" },
-  danger: { border: "border-primary", bg: "bg-primary/10", label: "Danger" },
+  danger: { border: "border-danger", bg: "bg-danger/10", label: "Danger" },
 };
 
 export default function Callout({ type = "tip", children }) {

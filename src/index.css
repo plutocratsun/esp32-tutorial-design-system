@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Maker/hobbyist palette */
-  --color-primary: #ff6b35;
-  --color-primary-dark: #e5551f;
-  --color-secondary: #00a896;
-  --color-dark: #1a1a2e;
-  --color-light: #faf7f0;
-  --color-warning: #f2c94c;
-  --color-ink: #2d2d2d;
+  /* Ascension brand palette (ascensionbureau.shop) */
+  --color-primary: #2f6feb;
+  --color-primary-dark: #2557c2;
+  --color-secondary: #1b3b2f;
+  --color-dark: #0d0d0d;
+  --color-light: #ffffff;
+  --color-warning: #f5c518;
+  --color-danger: #dc2626;
+  --color-ink: #1a1a1a;
 
   --font-heading: "Baloo 2", "Poppins", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
